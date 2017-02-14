@@ -1,0 +1,22 @@
+{
+    "name": "plasticene",
+    "description": "Plasticene is a nodejs project for constructing simulations and measuring throughput and work in progress under various conditions.",
+    "author": "Luke Samaha <lwsamaha@gmail.com>",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "private": false,
+    "license" : "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lwsamaha/plasticene.git"
+    },
+    "bugs": "https://github.com/lwsamaha/plasticene/issues",
+    "scripts": {
+        "test": "sh runtests.sh"
+    },
+    "devDependencies": {
+        "mocha": "2.x",
+        "should": "1.x"
+    },
+    "engine": "node >= 0.10.1"
+}
